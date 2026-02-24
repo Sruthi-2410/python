@@ -1,0 +1,7 @@
+f1=open("abc2.txt","r")
+str=f1.read()
+print(str)
+f2=open("xyz.txt","w")
+f2.write(str)
+f1.close()
+f2.close()

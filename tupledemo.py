@@ -1,0 +1,7 @@
+t=(10,20,30,40,50,60)
+#t.insert(2)
+t1=("abc",12.8,True)
+#t2=t.copy()
+print(t.count(10))
+print(t.index(60))
+print(len(t))
